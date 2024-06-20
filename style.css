@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    color: black;
+    font-family: 'Times New Roman';
+}
+
+body{
+    background-color: rgb(162, 212, 232);
+}
+
+
+/*---------This CSS is for header------------------     */
+
+.header,
+.navbar ul,
+.login ul {
+    display: flex;
+    
+}
+
+.logo {
+    font-size: 23px;
+}
+
+.navbar ul li,
+.login ul li {
+    margin-left: 22px;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a { 
+    text-decoration: none;
+    color: black;
+}
+
+.login ul li {
+    list-style: none;
+}
+
+.login ul li a {
+    text-decoration: none;
+}
+
+.header {
+    height: 12vh;
+    background-color: rgb(162, 212, 232);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.start-free a {
+    background-color: rgb(38, 0, 255);
+    padding: 8px;
+    color: white;
+}
