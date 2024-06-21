@@ -190,7 +190,7 @@ background: linear-gradient(90deg, rgba(201,231,242,1) 40%, rgba(98,186,218,1) 1
 
 }
 
-.quotes {
+.quotes{
     position: absolute;
     top: -23px; 
     left: 16%; 
@@ -206,3 +206,139 @@ background: linear-gradient(90deg, rgba(201,231,242,1) 40%, rgba(98,186,218,1) 1
 }
 
 /*---------------------------------------------------------     */
+.feature-cards {
+    justify-content: space-around;
+    display: flex;
+    gap: 20px;
+}
+
+.info-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+    height: 40vh;
+}
+
+.card-number {
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    flex-direction: left;
+}
+
+.card-icon {
+    width: 40px;
+    height: 40px;
+    margin: 10px auto;
+    border-radius: 5px;
+    background-size: cover;
+}
+
+#icon-1 {
+    background-color: #000;
+}
+
+#icon-2 {
+    background-color: #ff7f50;
+}
+
+#icon-3 {
+    background-color: #ffd700;
+}
+
+h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 16px;
+    color: #777;
+}
+
+
+/* ----------------------------------------- */
+
+.facilitites{
+    justify-content: space-around;
+    display: flex;
+    padding: 40px;
+    margin-right: 50px;
+    margin-top: 40px;
+    
+}
+
+.people-notifications img{
+    height: 80%;
+}
+.some-benefits{
+    padding: 40px;
+}
+.some-benefits hr{
+    margin-top: 30px;
+}
+.some-benefits h3{
+    font-size: 45px;
+}
+
+
+          /* ----------------------------------------- */
+
+.choose-why{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 90px;
+}
+.choose-detail h6{
+    color: blue;
+    font-size: 14px;  
+}
+
+.choose-detail h2{
+    font-size: 50px;
+}
+.choose-detail p{
+    margin-top: 16px;
+    font-size: 18;
+    color: #505887;
+}
+
+
+.statement-box {
+    color: black;
+    margin-top: 40px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #C4C4C4;
+    padding: 20px;
+    position: relative; 
+}
+.statement-box p{
+    color: rgb(0, 0, 0);
+    margin-top: 8px;
+}
+.Quotation {
+    position: absolute;
+    top: -21px; 
+    left: 11%; 
+    transform: translateX(-50%); /* Center horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 50%;
+    height: 40px; 
+    width: 40px; 
+    z-index: 100;
+}
+.choose-box img{
+    padding: 30px;
+}
+
+
