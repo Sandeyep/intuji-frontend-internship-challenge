@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: rgb(162, 212, 232);
+    background-color: white;
 }
 
 
@@ -49,7 +49,7 @@ body{
 
 .header {
     height: 12vh;
-    background-color: rgb(162, 212, 232);
+    background-color: #C9E7F2;
     justify-content: space-around;
     align-items: center;
 }
@@ -59,3 +59,70 @@ body{
     padding: 8px;
     color: white;
 }
+
+
+/*---------------This CSS is for Home----------      */
+.home{
+    display: flex;
+    justify-content: space-around;
+    background-color: #C9E7F2;
+   
+    
+}
+.home-info{
+    margin-top: 20vh;
+    margin-left: 9vw
+}
+
+.home-info h3{
+    font-size: 60px;
+}
+
+.home-info p{
+    margin-top: 22px;
+   font-size: 20px;
+}
+.home-buttons{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+.btn-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    height: 43px;
+    width: 8vw;
+    border-radius: 22px;
+}
+
+.btn-1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.home-img img{
+    height: 74%; 
+}
+
+.btn-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    width: 47px;
+    height: 47px;
+    background-color: #22D497;
+    border-radius: 50%;
+}
+.home-buttons p{
+    margin-left: 8px;
+  margin-bottom: 18px;
+  color: blue;
+
+}
+
+/*------------------------------------------------------- */
+
+
