@@ -49,9 +49,12 @@ body{
 
 .header {
     height: 12vh;
-    background-color: #C9E7F2;
+    background: rgb(201,231,242);
+background: linear-gradient(90deg, rgba(201,231,242,1) 40%, rgba(98,186,218,1) 100%);
     justify-content: space-around;
     align-items: center;
+    /* position:fixed; */
+    width: 100%;
 }
 
 .start-free a {
@@ -65,7 +68,8 @@ body{
 .home{
     display: flex;
     justify-content: space-around;
-    background-color: #C9E7F2;
+    background: rgb(201,231,242);
+    background: linear-gradient(90deg, rgba(201,231,242,1) 40%, rgba(98,186,218,1) 100%);
    
     
 }
@@ -125,4 +129,80 @@ body{
 
 /*------------------------------------------------------- */
 
+.about{
+    padding: 50px 30px ;
+    background-color: #F5F6F8;
+}
 
+.about-business h4{
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+}
+.about-logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.about-logos img{
+    height: 16%;
+    width: 12%;
+    margin-left: 20px;
+}
+
+
+
+/*-----------------CSS for about-statement ---------------- */
+
+.about-statement{
+    background-color: rgb(255, 255, 255);
+    padding: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-statement-left h3{
+    font-size: 46px;
+}
+.about-statement-left p{
+    margin-top: 3vh;
+    font-size: 16px;
+}
+.about-statement-right {
+    display: flex;
+    justify-content: center;
+    margin-top: 12vh; 
+}
+
+.stat-box {
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #C4C4C4;
+    padding: 38px;
+    position: relative; 
+}
+.stat-box p {
+    color: black;
+
+}
+
+.quotes {
+    position: absolute;
+    top: -23px; 
+    left: 16%; 
+    transform: translateX(-50%); /* Center horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 50%;
+    height: 50px; 
+    width: 50px; 
+    z-index: 100;
+}
+
+/*---------------------------------------------------------     */
