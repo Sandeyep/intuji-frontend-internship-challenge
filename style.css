@@ -342,3 +342,76 @@ p {
 }
 
 
+/* ----------------------- */
+.feature-mind-blowing {
+    background-color: #C9E7F2;
+}
+
+.feature-headings {
+    padding: 60px;
+}
+
+.feature-headings h2 {
+    font-size: 50px;
+}
+ 
+.feature-headings p {
+    margin-left: 3px;
+    margin-top: 22px;
+    font-size: 14px;
+    color: black;
+}
+
+.features-boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 89px 89px 89px ;
+}
+
+.feature-box {
+    height: 40vh;
+    border-radius: 6px;
+    background-color: #ffffff;
+    font-size: 22px;
+    padding: 25px;
+    width: 24vw;
+}
+
+.feature-box h4 {
+    margin-top: 25px;
+}
+
+.feature-box p {
+    margin-top: 21px;
+    color: black;
+}
+
+.feature-box img {
+    height: 17%;
+    width: 15%;
+}
+
+.sm-box {
+    flex: 1;
+    padding: 45px;
+    background-color: #ffffff;
+    margin-top: 23px;
+    border-radius: 6px;
+}
+
+
+
+.feature-box .sm-box h4 {
+    color: black;
+}
+
+.feature-box-new{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+/* -------------------------------------------------------- */
+
