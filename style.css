@@ -65,32 +65,33 @@ background: linear-gradient(90deg, rgba(201,231,242,1) 40%, rgba(98,186,218,1) 1
 
 
 /*---------------This CSS is for Home----------      */
-.home{
+.home {
     display: flex;
     justify-content: space-around;
-    background: rgb(201,231,242);
-    background: linear-gradient(90deg, rgba(201,231,242,1) 40%, rgba(98,186,218,1) 100%);
-   
-    
-}
-.home-info{
-    margin-top: 20vh;
-    margin-left: 9vw
+    background: linear-gradient(90deg, rgba(201, 231, 242, 1) 40%, rgba(98, 186, 218, 1) 100%);
+    height: 90vh;
 }
 
-.home-info h3{
+.home-info {
+    margin-top: 20vh; /* Adjust this margin as needed */
+    margin-left: 9vw; /* Adjust this margin as needed */
+}
+
+.home-info h3 {
     font-size: 60px;
 }
 
-.home-info p{
+.home-info p {
     margin-top: 22px;
-   font-size: 20px;
+    font-size: 20px;
 }
-.home-buttons{
+
+.home-buttons {
     display: flex;
     margin-top: 30px;
     align-items: center;
 }
+
 .btn-1 {
     display: flex;
     align-items: center;
@@ -101,16 +102,17 @@ background: linear-gradient(90deg, rgba(201,231,242,1) 40%, rgba(98,186,218,1) 1
     border-radius: 22px;
 }
 
-.btn-1 a{
+.btn-1 a {
     text-decoration: none;
     color: white;
 }
 
-.home-img img{
-    height: 74%; 
+.home-img img {
+    height: 90vh; /* Ensure the image height is not fixed, adjust as needed */
+    max-width: 100%; /* Ensure the image width adjusts responsively */
 }
 
-.btn-2{
+.btn-2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -120,11 +122,25 @@ background: linear-gradient(90deg, rgba(201,231,242,1) 40%, rgba(98,186,218,1) 1
     background-color: #22D497;
     border-radius: 50%;
 }
-.home-buttons p{
-    margin-left: 8px;
-  margin-bottom: 18px;
-  color: blue;
 
+.home-buttons p {
+    margin-left: 8px;
+    margin-bottom: 18px;
+    color: blue;
+}
+
+.home-btn-offer {
+    margin-top: 33px;
+    display: flex;
+}
+
+.home-btn-offer h5 {
+    margin-top: 4px;
+    font-size: 14px;
+}
+
+.home-btn-offer box-icon {
+    margin-left: 19px;
 }
 
 /*------------------------------------------------------- */
@@ -284,7 +300,12 @@ p {
 .some-benefits h3{
     font-size: 45px;
 }
-
+.additional-features li{
+    margin-top: 6px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
 
           /* ----------------------------------------- */
 
@@ -415,3 +436,215 @@ p {
 
 /* -------------------------------------------------------- */
 
+.testimonials-heading h3{
+    font-size: 50px;
+}
+p{
+    color: black;
+}
+
+.testimonials-heading{
+    margin-left: 55px;
+    padding: 60px;
+}
+
+
+
+.testimonials-info {
+    padding: 30px;
+    display: flex;
+    justify-content: center; /* Center the testimonials */
+    gap: 120px; /* Reduced gap between testimonials */
+}
+
+.testimonials-quotes {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    background-color: #fff;
+    position: relative;
+}
+
+.quote-image img {
+    padding: 14px;
+    height: auto;
+    max-width: 140px; 
+}
+
+.quote-text {
+    margin-top: 22px;
+}
+
+.quote-text h3 {
+    font-size: 20px;
+}
+
+.quote-text p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: gray;
+}
+
+
+
+/*------------------Users Data---------------------------- */
+.Our-Subscriber{
+    background-color: #3734A9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+
+}
+.Our-statistics p{
+    color: white;
+}
+.Our-Subscriber h2{
+    color: white;
+    font-size: 50px;
+}
+
+
+.vertical-line {
+    position: relative;
+    border-left: 2px solid black; /* Change color and width as needed */
+    height: 100px; /* Set the height of the line */
+}
+
+.subscriber-info{
+    display: flex;
+    margin-top: 8px;
+}
+
+
+
+.subscriber-info p{
+    margin-left: 12px;
+    color: white;
+}
+
+.subsciber-full-info{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    gap: 90px;
+    margin-right: 9vw;
+    padding: 30px;
+    
+}
+
+/* --------------------Get started now------------------------------ */
+.full-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+    height: 50vh;
+    border-radius: 14px;
+    background-color: blue;
+}
+.get-start-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.get-start-content h2{
+    font-size: 42px;
+    color: white;
+}
+.get-started-now{
+    padding: 90px;
+}
+.get-start-button {
+    margin-top: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF7F5C;
+    width: 12vw;
+    height: 7vh;
+    border-radius: 6px;
+}
+.get-start-button a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------footer------------------------------- */
+
+
+.footer-content {
+    display: flex;
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; /* Align items at the top */
+    padding: 30px;
+}
+
+
+
+.social-media a {
+    margin-left: 6px;
+}
+
+.social-links ul li,
+.resource-links ul li {
+    list-style: none;
+    margin-top: 9px;
+}
+
+
+.social-links ul li a,
+.resource-links ul li a {
+    text-decoration: none;
+}
+
+.subscription-btn {
+    display: grid;
+    grid-template-columns: auto 100px;
+    width: 80%;
+    height: 33px;
+    margin-top: 1.2rem;
+}
+.social-media p{
+    margin-top: 12px;
+}
+.social-media h4,
+.social-links h4,
+.resource-links h4,
+.subscription h4{
+    font-size: 20px;
+}
+.social-media-links{
+    margin-top: 12px;
+}
+.social-media-links box-icon{
+    margin-left: 7px;
+}
+.input-form {
+    border: none;
+    background-color: #3734A9;
+    color: white;
+}
+
+.subscription p {
+    margin-top: 17px;
+}
