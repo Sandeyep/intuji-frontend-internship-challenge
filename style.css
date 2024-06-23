@@ -73,15 +73,19 @@ background: linear-gradient(90deg, rgba(201,231,242,1) 40%, rgba(98,186,218,1) 1
 }
 
 .home-info {
-    margin-top: 20vh; 
-    margin-left: 9vw; 
+    margin: 14vh 0 0 9vw;
+
 }
 
 .home-info h3 {
-    font-size: 60px;
+    font-family:'Manrope';
+    font-size: 57px;
+    font-weight: 12000;
+    
 }
 
 .home-info p {
+    color: black;
     margin-top: 22px;
     font-size: 20px;
 }
@@ -151,6 +155,7 @@ background: linear-gradient(90deg, rgba(201,231,242,1) 40%, rgba(98,186,218,1) 1
 }
 
 .about-business h4{
+    font-family:'Manrope';
     display: flex;
     justify-content: center;
     font-size: 26px;
@@ -181,6 +186,7 @@ background: linear-gradient(90deg, rgba(201,231,242,1) 40%, rgba(98,186,218,1) 1
 }
 
 .about-statement-left h3{
+    font-family:'Manrope';
     font-size: 46px;
 }
 .about-statement-left p{
@@ -321,6 +327,7 @@ p {
 }
 
 .choose-detail h2{
+    font-family:'Manrope';
     font-size: 50px;
 }
 .choose-detail p{
@@ -373,6 +380,7 @@ p {
 }
 
 .feature-headings h2 {
+    font-family:'Manrope';
     font-size: 50px;
 }
  
@@ -437,6 +445,7 @@ p {
 /* -------------------------------------------------------- */
 
 .testimonials-heading h3{
+    font-family:'Manrope';
     font-size: 50px;
 }
 p{
@@ -540,8 +549,9 @@ p{
 
 /* ------------------Recent Blogs------------------------------- */
 .title {
+    font-family:'Manrope';
     padding: 30px;
-    font-weight: 800;
+    
     font-size: 71px;
     margin-top: 55px;
     margin-left: 80px;
@@ -629,14 +639,6 @@ p{
  grid-template-columns: 1fr 1fr 1fr;
  gap: 25px;
 }
-@media (max-width: 768px) {
-    .blogs {
-        grid-template-columns: 1fr;
-    }
-    .main-blog {
-        grid-template-columns: 1fr;
-    }
-}
 
 
 
@@ -649,6 +651,13 @@ h1{
 }
 .qtn-container{
     max-width: 600px;
+}
+.qtn h3{
+    font-family: 'Manrope';
+ 
+}
+.qtn-text {
+    color: black;
 }
 .qtn{
     background-color: transparent;
@@ -803,75 +812,6 @@ h1{
     text-decoration: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ------------------footer------------------------------- */
 
 .footer{
@@ -885,7 +825,7 @@ h1{
 .footer-content {
     display: flex;
     justify-content: space-around;
-    align-items: flex-start; /* Align items at the top */
+    align-items: flex-start; 
     padding: 30px;
 }
 
@@ -944,3 +884,11 @@ h1{
     align-items: center;
     justify-content: center;
 }
+
+
+
+
+
+
+
+
