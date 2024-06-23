@@ -1,8 +1,7 @@
-function toggleContent(icon) {
-    var paragraph = icon.nextElementSibling;
-    if (paragraph.style.display === "none" || paragraph.style.display === "") {
-        paragraph.style.display = "block";
-    } else {
-        paragraph.style.display = "none";
-    }
-}
+const toggles = document.querySelectorAll('.qtn-toggle')
+
+toggles.forEach((toggle) => {
+    toggle.addEventListener('click', () => {
+        toggle.parentNode.classList.toggle('active')
+    })
+})

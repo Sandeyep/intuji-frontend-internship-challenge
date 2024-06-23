@@ -73,8 +73,8 @@ background: linear-gradient(90deg, rgba(201,231,242,1) 40%, rgba(98,186,218,1) 1
 }
 
 .home-info {
-    margin-top: 20vh; /* Adjust this margin as needed */
-    margin-left: 9vw; /* Adjust this margin as needed */
+    margin-top: 20vh; 
+    margin-left: 9vw; 
 }
 
 .home-info h3 {
@@ -108,8 +108,8 @@ background: linear-gradient(90deg, rgba(201,231,242,1) 40%, rgba(98,186,218,1) 1
 }
 
 .home-img img {
-    height: 90vh; /* Ensure the image height is not fixed, adjust as needed */
-    max-width: 100%; /* Ensure the image width adjusts responsively */
+    height: 90vh; 
+    max-width: 100%; 
 }
 
 .btn-2 {
@@ -143,7 +143,7 @@ background: linear-gradient(90deg, rgba(201,231,242,1) 40%, rgba(98,186,218,1) 1
     margin-left: 19px;
 }
 
-/*------------------------------------------------------- */
+/*----------------------about section--------------------------------- */
 
 .about{
     padding: 50px 30px ;
@@ -210,7 +210,7 @@ background: linear-gradient(90deg, rgba(201,231,242,1) 40%, rgba(98,186,218,1) 1
     position: absolute;
     top: -23px; 
     left: 16%; 
-    transform: translateX(-50%); /* Center horizontally */
+    transform: translateX(-50%); 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -348,7 +348,7 @@ p {
     position: absolute;
     top: -21px; 
     left: 11%; 
-    transform: translateX(-50%); /* Center horizontally */
+    transform: translateX(-50%); 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -453,8 +453,8 @@ p{
 .testimonials-info {
     padding: 30px;
     display: flex;
-    justify-content: center; /* Center the testimonials */
-    gap: 120px; /* Reduced gap between testimonials */
+    justify-content: center; 
+    gap: 120px;
 }
 
 .testimonials-quotes {
@@ -490,6 +490,7 @@ p{
 
 /*------------------Users Data---------------------------- */
 .Our-Subscriber{
+    margin-top: 8vh;
     background-color: #3734A9;
     display: flex;
     justify-content: space-around;
@@ -508,8 +509,8 @@ p{
 
 .vertical-line {
     position: relative;
-    border-left: 2px solid black; /* Change color and width as needed */
-    height: 100px; /* Set the height of the line */
+    border-left: 2px solid black; 
+    height: 100px;
 }
 
 .subscriber-info{
@@ -533,6 +534,236 @@ p{
     padding: 30px;
     
 }
+
+
+
+
+/* ------------------Recent Blogs------------------------------- */
+.title {
+    padding: 30px;
+    font-weight: 800;
+    font-size: 71px;
+    margin-top: 55px;
+    margin-left: 80px;
+}
+.blogs {
+    margin-top: 2rem;
+    padding: 80px;
+}
+.blog-item {
+    background: white;
+    border-radius: 8px;
+}
+.blog-item-mini {
+    height: 436px;
+    width: 382px;
+    background: white;
+}
+.blog-item img {
+    width: 499px;
+    height: 285px;
+}
+.blog-item-mini img {
+    width: 382px;
+    height: 202px;
+}
+.main-blog-main-text {
+    padding: 30px;
+}
+.blog-item h3 {
+    font-weight: 700;
+    font-family: 'Manrope';
+    font-size: 16px;
+    color: #191919;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.blog-item-mini h3 {
+    font-weight: 700;
+    font-family: 'Manrope';
+    font-size: 16px;
+    color: #191919;
+ 
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.blog-item p {
+    font-family: Manrope;
+    font-weight: 700;
+    line-height: 36px;
+    font-size: 29px;
+    color: #000;
+    margin: 0 0 10px;
+}
+.blog-item-mini p {
+    font-family: Manrope;
+    font-weight: 700;
+    line-height: 36px;
+    font-size: 29px;
+    color: #000;
+    margin: 0 0 10px;
+}
+
+.read-more {
+    text-decoration: none;
+    font-size: 1em;
+    display: inline-block;
+    margin-top: 3.5rem;
+}
+.main-blog {
+    grid-column: span 2;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.main-blog-text {
+    padding: 30px;
+ 
+}
+.main-blog-mini-text {
+    padding: 30px;
+}
+.blog-mini {
+ padding-top: 2.5rem;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ gap: 25px;
+}
+@media (max-width: 768px) {
+    .blogs {
+        grid-template-columns: 1fr;
+    }
+    .main-blog {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+/* --------------------Questions section------------------------------ */
+
+h1{
+    margin: 50px 0 30px;
+    text-align: center;
+}
+.qtn-container{
+    max-width: 600px;
+}
+.qtn{
+    background-color: transparent;
+    border: 1px solid #9fa4a8;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+.qtn.active{
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1) ;
+
+}
+.qtn.active::before, .qtn.active::after{
+    color: #2ecc71;
+    font-size: 7rem;
+    position: absolute;
+    opacity: 0.2;
+    top: 20px;
+    left: 20px;
+    z-index: 0;
+}
+.qtn.active::before{
+    color: #3498db;
+    top: -10px;
+    left: -30px;
+    transform: rotateY(-180deg);
+}
+
+.qtn-title{
+    margin: 0 35px 0 0;
+}
+.qtn-text{
+    display: none;
+    margin: 30px 0 0;
+}
+.qtn.active .qtn-text{
+    display: block;
+}
+
+.qtn-toggle{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    padding: 0;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    
+}
+
+
+
+.question-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ask-questions box-icon{
+    font-size: 30px;
+}
+
+
+.ask-questions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    height: 46vh;
+    text-align: center;
+}
+.ask-questions h4{
+    font-size: 24px;
+    margin-top: 33px;
+}
+.ask-questions p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+    text-align: center;
+}
+.button{
+    width: 100%;
+}
+.button button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    background-color: #FF7F5C;
+}
+
+
+
+
+
+
 
 /* --------------------Get started now------------------------------ */
 .full-content{
@@ -584,9 +815,68 @@ p{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ------------------footer------------------------------- */
 
-
+.footer{
+    padding: 32px;
+}
 .footer-content {
     display: flex;
 }
@@ -647,4 +937,10 @@ p{
 
 .subscription p {
     margin-top: 17px;
+}
+.copyright{
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
