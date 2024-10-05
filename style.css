@@ -19,15 +19,20 @@ body{
 .login ul {
     display: flex;
     
+    
 }
 
 .logo {
-    font-size: 23px;
+    font-size: 20px;
+}
+.logo h5{
+    font-size: 22px;
 }
 
 .navbar ul li,
 .login ul li {
     margin-left: 22px;
+    font-size:20px;
 }
 
 .navbar ul li {
@@ -40,6 +45,7 @@ body{
 }
 
 .login ul li {
+    font-size:20px;
     list-style: none;
 }
 
@@ -558,7 +564,7 @@ p{
 }
 .blogs {
     margin-top: 2rem;
-    padding: 80px;
+    padding: 78px;
 }
 .blog-item {
     background: white;
